@@ -1,0 +1,37 @@
+
+body, table {
+    margin: 0;
+    padding: 0;
+}
+
+.post {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  
+}
+
+.post table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.post th, .post td {
+    padding: 10px;
+    border: 1px solid #0a0a0a;
+}
+
+.post th {
+    background-color: #eec5e1;
+    font-weight: bold;
+    text-align: left;
+}
+
+.post td {
+    vertical-align: top;
+}

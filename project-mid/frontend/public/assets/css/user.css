@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+table {
+    width: 50%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+}
+
+
+thead th {
+    background-color: #f1abe0; 
+    border: 1px solid #141313;
+    padding: 8px;
+    text-align: left;
+}
+
+
+tbody td {
+    border: 1px solid #746a6a;
+    padding: 8px;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: hsl(315, 50%, 98%); 
+}
+
+
+h2 {
+    margin-bottom: 20px; 
+}
